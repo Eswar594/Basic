@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #000;
+    margin:3%;
+    color:#fff;
+}
+
+h1{
+    color:rgb(14, 210, 187);
+    font-size:200%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.row{
+    display:flex;
+}
+
+.card{
+    width:33%;
+    height:70vh;
+    border:3px solid #e90505;
+    margin:1%;
+    border-radius:6px;
+}
+
+.img{
+    width:100%;
+    border-radius:6px;
+}
+
+.details{
+    padding:1%;
+}
